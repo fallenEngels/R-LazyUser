@@ -1,11 +1,14 @@
 Package: LazyUser
 Type: Package
-Title: What the Package Does (Title Case)
+Title: functions for lazy R users
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Johannes Engels
+Maintainer: Johannes Engels <post@johannesengels>
+Description: Contains a variety of small functions that help lazy users
+    by automating certain avoidable mistakes/regular commands
+    for a happier user experience.
+License: MIT
+BugReports: https://github.com/fallenEngels/R-LazyUser/issues
 Encoding: UTF-8
 LazyData: true
+Imports: clipr
