@@ -6,7 +6,7 @@
 # an optional argument.
 
 full_clean <- function(keep = NULL, plots = F) {
-  if(plots = T){
+  if(plots == T){
     dev.off(dev.list()["RStudioGD"])
   }
   if(!(is.null(keep))){
